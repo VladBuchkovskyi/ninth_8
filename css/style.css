@@ -43,8 +43,28 @@ body {
   line-height: 1.3;
 }
 
-.film-pic {
-  width: 400px;
+.film-pic-1 {
+  width: 300px;
+  height: 400px;
+  background-image: url('https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.film-pic-2 {
+  width: 300px;
+  height: 400px;
+  background-image: url('https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.film-pic-3 {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .films {

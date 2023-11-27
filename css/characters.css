@@ -1,0 +1,60 @@
+.yoda {
+  width: 150px;
+  height: 200px;
+  background-image: url('https://iconbug.com/data/4f/256/4a4ce0085dea00bf9d2bdaf19d739c1c.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.yoda:hover {
+  background-image: url('https://pngimg.com/d/yoda_PNG21.png');
+}
+
+.green {
+  font-weight: 700;
+  color: green;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}
+th,
+td {
+  vertical-align: middle;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.grip {
+  width: 25px;
+  transform: rotate(90deg);
+}
+
+.blade {
+  width: 0;
+  height: 5px;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.blade-green {
+  background-color: green;
+  box-shadow: 0 0 7px 1px green;
+}
+
+.blade-container {
+  width: 100px;
+}
+
+.lightsaber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightsaber:hover .blade {
+  width: 100px;
+}
